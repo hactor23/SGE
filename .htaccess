@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt|assets|js)
+RewriteRule ^(.*) index.php/$1 [L]
+
+
+
+
+
+SetEnv TZ America/Argentina/Buenos_Aires
